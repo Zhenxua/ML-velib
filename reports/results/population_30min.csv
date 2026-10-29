@@ -1,0 +1,7 @@
+reason,train,val,test,total
+not observed at t,10240,240,560,11040
+closed at t,101,519,192,812
+not observed at t+h,1490,184,629,2303
+closed at t+h,2,5,5,12
+t+h in the next block,0,160,0,160
+kept,219127,47612,59574,326313

@@ -1,0 +1,19 @@
+# Optional: `pip install -e .` (editable) makes `import velib` work from anywhere. Use the editable form only:
+# velib.config resolves data/ and reports/ relative to the repository, so a regular install would put them
+# inside the virtual environment. The scripts, tests and notebook work without any install.
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "velib-sous-tension"
+version = "1.0.0"
+description = "Question A: predict 'departure impossible' (< 2 bikes) at 80 Vélib' stations, 30 and 60 minutes ahead"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["numpy>=2.0", "pandas>=2.2", "scikit-learn>=1.5", "matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

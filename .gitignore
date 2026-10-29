@@ -1,0 +1,18 @@
+# The frozen dataset is not versioned (brief): it is downloaded by velib.data.fetch and checked against its md5.
+data/
+*.csv.gz
+*.part
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+*.egg-info/
+.ruff_cache/
+*.stackdump
+
+# Working material from the audit, not part of the project
+original/
+brief/
+audit_scratch/
+review_scratch/

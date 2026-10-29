@@ -1,0 +1,86 @@
+{
+  "30": {
+    "chosen_model": "random forest",
+    "knn_k": 50,
+    "tree_depth": 8,
+    "knn_val_pr_auc": {
+      "5": 0.6084076195934436,
+      "15": 0.6793762176008257,
+      "50": 0.7014299145172563,
+      "150": 0.6827646855576692
+    },
+    "tree_val_pr_auc": {
+      "4": 0.7688285554717356,
+      "8": 0.8113120542079424,
+      "12": 0.8085714064950239,
+      "16": 0.8030231141142692
+    },
+    "knn_weights": {
+      "bikes_available": 0.847,
+      "docks_available": 0.1073,
+      "fill": 0.3601,
+      "d_bikes_15": 0.186,
+      "d_bikes_30": 0.0761,
+      "d_bikes_60": 0.0628,
+      "bikes_24h": 0.0,
+      "hour_sin": 0.1752,
+      "hour_cos": 0.1369,
+      "weekend": 0.0387,
+      "capacity": 0.0973,
+      "paris": 0.0402,
+      "latitude": 0.0678,
+      "longitude": 0.0561,
+      "st_empty_rate": 0.1652
+    },
+    "thresholds": {
+      "naive Bayes": 0.9697520411654957,
+      "k-NN (k=50)": 0.26,
+      "weighted k-NN (k=50)": 0.4,
+      "decision tree (depth=8)": 0.30425531914893617,
+      "random forest": 0.3386672749071146,
+      "gradient boosting": 0.3341802890693796
+    }
+  },
+  "60": {
+    "chosen_model": "gradient boosting",
+    "knn_k": 50,
+    "tree_depth": 8,
+    "knn_val_pr_auc": {
+      "5": 0.5664134752374956,
+      "15": 0.6387459274938727,
+      "50": 0.6703327443565119,
+      "150": 0.6571723050490682
+    },
+    "tree_val_pr_auc": {
+      "4": 0.6787802445659756,
+      "8": 0.742600166339236,
+      "12": 0.7368341848746293,
+      "16": 0.7325486060081959
+    },
+    "knn_weights": {
+      "bikes_available": 0.7389,
+      "docks_available": 0.1146,
+      "fill": 0.387,
+      "d_bikes_15": 0.1691,
+      "d_bikes_30": 0.0557,
+      "d_bikes_60": 0.0906,
+      "bikes_24h": 0.0443,
+      "hour_sin": 0.2437,
+      "hour_cos": 0.2499,
+      "weekend": 0.0591,
+      "capacity": 0.1203,
+      "paris": 0.0039,
+      "latitude": 0.1074,
+      "longitude": 0.0884,
+      "st_empty_rate": 0.3
+    },
+    "thresholds": {
+      "naive Bayes": 0.9198001725686108,
+      "k-NN (k=50)": 0.28,
+      "weighted k-NN (k=50)": 0.34,
+      "decision tree (depth=8)": 0.32989690721649484,
+      "random forest": 0.32536559157865824,
+      "gradient boosting": 0.32444562959501366
+    }
+  }
+}
